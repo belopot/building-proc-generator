@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+#stage {
+  pointer-events: none;
+}
+
+#layer-scene {
+  width: 100vw;
+  height: 100vh;
+}
+
+#layer-map {
+  position: absolute;
+  top: 0vh;
+  left: 0vw;
+}
+
+#layer-map canvas {
+  position: absolute;
+  left: 0vw;
+  top: 1.5em;
+}
+
+#controls-floor {
+  position:absolute;
+  left: 0vw;
+  top: 0vh;
+  width: 20vw;
+  text-align: left;
+  height: 1.5em;
+}
